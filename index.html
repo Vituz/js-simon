@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        span{
+            font-size: 3rem;
+            margin: 3rem 0 3rem 2rem;
+            font-weight: 800;
+        }
+
+        h2{
+            font-size: 2rem;
+            padding-left: 2rem;
+        }
+
+        div h2:first-child{
+            color: green;
+        }
+
+    </style>
+
     <title>Simon</title>
 </head>
 <body>
+
+    <h1>Allo scadere del tempo potrai inserire i numeri che hai memorizzato, uno alla volta</h1>
+    <span>Timer: </span>
+    <span id="timer"></span>
+    
+    <div>
+        <h2 id="point"></h2>
+        <h2 id="inser_number"></h2>
+        <h2 id="correct_number"></h2>
+    </div>
+    
     
     <script src="./assets/js/main.js"></script>
 </body>
